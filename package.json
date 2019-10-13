@@ -1,0 +1,26 @@
+{
+  "name": "javascript-automation-nighwatch",
+  "version": "1.0.0",
+  "description": "This is a nighwatch project",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardSeverich/javascript-automation-nighwatch.git"
+  },
+  "author": "Richard Severich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RichardSeverich/javascript-automation-nighwatch/issues"
+  },
+  "homepage": "https://github.com/RichardSeverich/javascript-automation-nighwatch#readme",
+  "dependencies": {
+    "chromedriver": "77.0.0",
+    "geckodriver": "1.18.0",
+    "iedriver": "3.14.1",
+    "nightwatch": "1.2.4",
+    "selenium-server": "3.141.59"
+  }
+}

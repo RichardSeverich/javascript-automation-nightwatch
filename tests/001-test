@@ -1,0 +1,28 @@
+var commons = require("../../utils/Common");
+
+module.exports = {
+
+    tags: ["Tier1"],
+
+    before : function (browser) {
+        browser.maximizeWindow();
+        // Pages
+        // Sections
+    },
+
+    "Test 1: Verify google title": function () {
+
+    },
+
+    "Test 2: Verify search button' section": function () {
+
+    },
+
+    "Test 2: Verify search button' section": function () {
+
+    },
+
+    after : function (browser) {
+        
+    }
+};

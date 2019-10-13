@@ -1,0 +1,10 @@
+# exclude folder
+/node_modules/
+# exclude everything within the following folder
+reports/*
+screenshots/*
+logs/*
+# exceptions rules
+!reports/README.txt
+!screenshots/README.txt
+!logs/README.txt
