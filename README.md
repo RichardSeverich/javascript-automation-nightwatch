@@ -32,6 +32,7 @@ A list of the system services appears.
 In the list we have to search and disable the following services:
 
 Google Update Service (gupdate)
+
 Google Update Service (gupdatem)
 
 To disable the services we right click on them and stop them
