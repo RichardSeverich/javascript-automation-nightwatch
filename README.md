@@ -22,6 +22,7 @@ Nightwatch is an automated testing framework for web applications and websites, 
 ## Configuration ⚙️
 
 1. Google Chrome
+
 Disable Google Updater services
 We must run the services.msc utility to see the list of system services.
 To do this we go to Start -> Run and write services.msc.
