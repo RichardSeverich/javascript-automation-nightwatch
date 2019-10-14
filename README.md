@@ -22,28 +22,48 @@ Nightwatch is an automated testing framework for web applications and websites, 
 ## Configuration ⚙️
 
 1. Google Chrome
+```
+Disable Google Updates
+*  Go to Windows start
+*  Go to Run
+*  Write services.msc
+*  Write services.msc in the search box.
+*  A list of the system services should appears.
+*  In the list we have to search and disable the following services:
+   Google Update Service (gupdate)
+   Google Update Service (gupdatem)
+* To disable the services we right click on them and stop them.
+* If they are running Then we right click again and go to Properties.
+* Then on the Startup type field, we select the option «Disabled«.
+* In case there is any more Google Update service, we also disable it.
+```
+2. Firefox
+```
+Disable Firefox updates
+* Select the “Menu” Menu Button button in the upper-right corner, then choose “Options“.
+* Select “General” on the left panel.
+* Scroll down to the “Firefox Updates” section.
+* Select one of the following options as desired:
+   Automatically install updates
+   Check for updates, but let me choose whether to install them
+   Never check for updates
+* Check or uncheck the “Use a background service to install updates” option as desired.
+```
+3. Firefox
+```
+ Go the following page: https://heliumhq.com/docs/internet_explorer
+```
 
-Disable Google Updater services
-We must run the services.msc utility to see the list of system services.
-To do this we go to Start -> Run and write services.msc.
-In modern versions of windows, we simply go to the start menu and write
-services.msc in the search box.
-
-A list of the system services appears.
-In the list we have to search and disable the following services:
-
-Google Update Service (gupdate)
-
-Google Update Service (gupdatem)
-
-To disable the services we right click on them and stop them
-if they are running Then we right click again and go to Properties.
-In the Startup type field, we select the option «Disabled«.
-In case there is any more Google Update service, we also disable it.
+4. Information about dependencies
+    "chromedriver": "73.0.0" -> chromedriver 73.0.0  (Support Chrome73)
+    "geckodriver": "1.11.0"  -> geckodriver  v0.20.0 (Support Firefox55-62)
+    "iedriver": "3.14.0"      -> iedriver  3.14.0 (Support IE11)
+    "nightwatch": "1.2.4"
+    "selenium-server": "3.141.59" -> selenium-server Version: 3.141.59
 
 ## Usage (Execute Tests) ⚡️
 
-1. npm test                      : Execute all tests.
+1. Execute all tests: npm test
     
 ## Contributing 🖇️
 

@@ -18,8 +18,8 @@
   "homepage": "https://github.com/RichardSeverich/javascript-automation-nighwatch#readme",
   "dependencies": {
     "chromedriver": "73.0.0",
-    "geckodriver": "1.18.0",
-    "iedriver": "3.14.1",
+    "geckodriver": "1.11.0",
+    "iedriver": "3.14.0",
     "nightwatch": "1.2.4",
     "selenium-server": "3.141.59"
   }

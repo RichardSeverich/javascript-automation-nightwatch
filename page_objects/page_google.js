@@ -17,13 +17,20 @@ module.exports = {
         verifyTitle: function () {
             return this
                 .waitForElementPresent("@title", EXPLICIT_WAIT_THIRTY_SECONDS)
-                .expect.element("@title").text.to.equal("Google");
+                .assert.title("Google");
         },
+
         search: function (search_criteria) {
             return this
                 .waitForElementVisible("@input_search", EXPLICIT_WAIT_THREE_SECONDS)
                 .setValue("@input_search", search_criteria)
                 .click("@button_search");
+        },
+
+        verifyTitleFail: function () {
+            return this
+                .waitForElementPresent("@title", EXPLICIT_WAIT_THREE_SECONDS)
+                .assert.title("Nighwatch");
         }
     }]
 };

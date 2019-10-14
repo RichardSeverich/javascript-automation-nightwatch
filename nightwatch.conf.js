@@ -16,19 +16,19 @@ var SELENIUM_CONFIGURATION = {
   }
 };
 
-var CHROME_CONFIGURATION = {
+var CHROME = {
   browserName: "chrome",
   javascriptEnabled: true,
   acceptSslCerts: true
 };
 
-var FIREFOX_CONFIGURATION = {
+var FIREFOX = {
   browserName: "firefox",
   javascriptEnabled: true,
   acceptSslCerts: true
 };
 
-var IE_CONFIGURATION = {
+var IE = {
   browserName: "ie",
   javascriptEnabled: true,
   acceptSslCerts: true
@@ -44,7 +44,7 @@ var DEFAULT_CONFIGURATION = {
   globals: {
     "waitForConditionTimeout": 60000 // 1 min
   },
-  desiredCapabilities: CHROME_CONFIGURATION // Capacidades deseadas (Select Browser)
+  desiredCapabilities: CHROME // Capacidades deseadas (Select Browser)
 };
 
 var ENVIRONMENTS = {

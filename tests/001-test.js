@@ -20,6 +20,10 @@ module.exports = {
         google.search("Nighwatch");
     },
 
+    "Test 3: Verify google title": function () {
+        google.verifyTitleFail();
+    },
+
     after : function (browser) {
         browser
             .pause(EXPLICIT_WAIT_FIVE_SECONDS)
