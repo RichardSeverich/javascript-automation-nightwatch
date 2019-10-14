@@ -11,7 +11,7 @@ var SELENIUM_CONFIGURATION = {
   log_path: "logs",
   cli_args: {
     "webdriver.chrome.driver": chrome_driver.path,
-    "webdriver.firefox.driver":  firefox_driver.path,
+    "webdriver.gecko.driver":  firefox_driver.path,
     "webdriver.ie.driver":  ie_driver.path
   }
 };
