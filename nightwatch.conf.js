@@ -53,9 +53,9 @@ var ENVIRONMENTS = {
 
 module.exports = {
   src_folders: ["tests"],
-  page_objects_path: ["page-objects"],
-  output_folder: ["reports"],
-  globals_path: ["globals/explicit_waits.js"],
+  page_objects_path: ["page_objects"],
+  output_folder: "reports",
+  globals_path: "globals.js",
   selenium: SELENIUM_CONFIGURATION,
   test_settings: ENVIRONMENTS
 };

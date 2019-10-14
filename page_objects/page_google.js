@@ -14,15 +14,15 @@ module.exports = {
         }        
     },
     commands: [{
-        verify_title: function (search_criteria) {
+        verifyTitle: function () {
             return this
-                .waitForElementVisible("@title", EXPLICIT_WAIT_THIRTY_SECONDS)
+                .waitForElementPresent("@title", EXPLICIT_WAIT_THIRTY_SECONDS)
                 .expect.element("@title").text.to.equal("Google");
         },
         search: function (search_criteria) {
             return this
                 .waitForElementVisible("@input_search", EXPLICIT_WAIT_THREE_SECONDS)
-                .setValue("@input_search", "nightwatch")
+                .setValue("@input_search", search_criteria)
                 .click("@button_search");
         }
     }]
