@@ -1,0 +1,1 @@
+This folder will store the screenshots taken by Nightwatch when it executes

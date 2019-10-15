@@ -1,0 +1,1 @@
+This folder will store the output from Nightwatch when it executes

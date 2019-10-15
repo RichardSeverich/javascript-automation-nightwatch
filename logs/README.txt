@@ -1,0 +1,1 @@
+This folder will store all logs when Nightwatch is executed.

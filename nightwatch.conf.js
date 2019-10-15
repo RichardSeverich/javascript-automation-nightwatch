@@ -38,7 +38,7 @@ var DEFAULT_CONFIGURATION = {
   screenshots: {
     "enabled": true,
     "on_failure": true,
-    "on_error": false,
+    "on_error": true,
     "path": "screenshots"
   },
   globals: {
